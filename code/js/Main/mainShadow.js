@@ -1,10 +1,14 @@
 import React from "react";
 
+import { Time } from "../jsFiles/time";
+
+var clock = Time();
+
 const Shadow = () => {
 	return (
 		<div className="main__shadow">
 			<ul className="main__date">
-				<li id="date" className="main__days"></li>
+				<li id="date" className="main__days">{clock}</li>
 				<li className="main__time">8:00</li>
 				<li className="main__time">9</li>
 				<li className="main__time">10</li>

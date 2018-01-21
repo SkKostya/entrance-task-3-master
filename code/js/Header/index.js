@@ -9,7 +9,7 @@ class Header extends Component {
 		return(
 			<header className="header">
 				<Title title="header__title" />
-				<Button clName="header__create" btnTxt="Создать встречу" />
+				<Button />
 			</header>
 		)
 	}

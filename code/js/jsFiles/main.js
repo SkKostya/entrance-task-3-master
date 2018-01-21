@@ -32,6 +32,6 @@ export function setTime () {
 	var	h = new Date(),
 		time = document.getElementById( "time" ),
 		clock = h.getHours() + ":" + h.getMinutes();
-	setInterval (clock, 30000);
 	return clock;
+	setTime ();
 }

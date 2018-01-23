@@ -3,8 +3,7 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route } from "react-router-dom";
  
-import Wrapper from "./Wrapper/wrapper";
-import Meeting from "./Meeting/index";
+import { Wrapper, Meeting } from "./pages";
 
 ReactDOM.render(
 	<BrowserRouter>

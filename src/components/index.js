@@ -11,6 +11,9 @@ export { default as TableCell } from "./tableCell";
 export { default as TableColor } from "./tableColor";
 export { default as Title } from "./title";
 
+export { default as BkgcMeetCre } from "./BKGCMeetCre";
+export { default as MeetCreBkgc } from "./meetCreBKGC/";
+
 export { default as HeaderNew } from "./headerNew";
 export { default as MainNew } from "./mainNew";
 export { default as FooterNew } from "./footerNew";
@@ -21,3 +24,9 @@ export { default as Recomendations } from "./recomendations";
 export { default as MainPerson } from "./mainPerson";
 export { default as DateTxt } from "./date";
 export { default as MainTitle } from "./mainTitle";
+
+export { default as NewRec } from "./newRecomendations";
+export { default as EditRight } from "./editRight";
+export { default as MainEdit } from "./mainEdit";
+export { default as FooterBtn } from "./editFooter";
+export { default as DeleteMeeting } from "./deleteMeeting";

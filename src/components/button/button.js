@@ -6,7 +6,6 @@ class Button extends Component {
 		return (
 			<div>
 				<Link to="/newmeet"><button className="header__create">Создать встречу</button></Link>
-				{this.props.children}
 			</div>
 		);
 	}

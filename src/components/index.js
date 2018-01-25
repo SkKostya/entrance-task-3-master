@@ -20,6 +20,7 @@ export { default as FooterNew } from "./footerNew";
 export { default as MainLeft } from "./mainLeft";
 export { default as MainRight } from "./mainRight";
 export { default as Input } from "./input";
+export { default as Input1 } from "./input1";
 export { default as Recomendations } from "./recomendations";
 export { default as MainPerson } from "./mainPerson";
 export { default as DateTxt } from "./date";

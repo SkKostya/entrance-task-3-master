@@ -2,7 +2,7 @@ import React from "react";
 
 import { Item, Floor } from "../../components";
 
-const List = () => {
+const MainList = () => {
 	return (
 		<ul className="main__list">
 			<ul className="main__dis">
@@ -24,4 +24,4 @@ const List = () => {
 	);
 };
 
-export default List;
+export default MainList;

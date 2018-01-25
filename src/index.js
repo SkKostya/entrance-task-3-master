@@ -3,17 +3,17 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route } from "react-router-dom";
  
-import { Wrapper, Meeting, MeetingCreated, Editing, RemoveMeet } from "./pages";
+import { Wrapper, NewMeeting, MeetingCreated, Editing, RemoveMeet } from "./pages";
 
 ReactDOM.render(
 	<BrowserRouter>
 		<div className="wrapper">
-			<Route path="/" component={Wrapper} />
-			<Route path="/newmeet" component={Meeting} />
+			<Route exact path="/" component={Wrapper} />
+			<Route path="/newmeet" component={NewMeeting} />
 			<Route path="/meetingcreated" component={MeetingCreated} />
 			<Route path="/editing" component={Editing} />
-			<Route path="/newmeet/remove" component={RemoveMeet} />
+			<Route path="/remove" component={RemoveMeet} />
   		</div>
-  	</BrowserRouter>,
-  document.getElementById('fieldToShow')
+	</BrowserRouter>,
+	document.getElementById('fieldToShow')
 );

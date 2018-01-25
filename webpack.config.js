@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     devServer: {
         inline: true,
-        contentBase: './src',
+        contentBase: './public',
         port: 3000
     },
     devtool: 'cheap-module-eval-source-map',
@@ -19,11 +19,15 @@ module.exports = {
             {
                 test: /\.scss/,
                 loader: 'style-loader!css-loader!sass-loader'
+            },
+            { 
+                test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3)$/, 
+                loader: "file-loader" 
             }
         ]
     },
     output: {
-        path: "public",
+        path: "./public",
         filename: 'js/bundle.min.js'
     },
     plugins: [

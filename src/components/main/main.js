@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 
-import { Shadow, List, Schedule, Present } from "../../components"
+import { MainShadow, MainList, MainSchedule, MainPresent } from "../../components"
 
 class Main extends Component {
 	render () {
 		return(
 			<main className="main">
-				<Shadow />
-				<List />
-				<Schedule />
-				<Present />
+				<MainShadow />
+				<MainList />
+				<MainSchedule />
+				<MainPresent />
 			</main>
 		);
 	}

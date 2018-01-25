@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Person = (props) => {
+const MainPerson = (props) => {
 	return (
 		<p className="main1__person">
 			<img src={props.perImg} alt="" className="main1__img" />
@@ -11,3 +11,5 @@ export const Person = (props) => {
 		</p>
 	);
 };
+
+export default MainPerson;
